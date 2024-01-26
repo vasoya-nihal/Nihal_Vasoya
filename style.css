@@ -30,15 +30,18 @@ h3 {
 
 .left-sideimg1 {
   max-width: 100%;
+  background-position: center;
+  background-size: cover;
   height: auto;
   overflow-x: clip;
 }
 
 .left-sideimg1 img {
-  background-size: cover;
-  background-position: center;
+  /* background-size: cover; */
+  /* background-position: center; */
   height: 100vh;
   width: auto;
+  padding: 0 12px 0 12px;
 }
 .progress {
   height: 4px;
