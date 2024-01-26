@@ -17,8 +17,15 @@
   width: auto;
 }
 .center-text {
-  text-align: center;
+  /* text-align: center; */
   padding: 15%;
+}
+
+h1 {
+  text-align: center;
+}
+h3 {
+  text-align: center;
 }
 
 .left-sideimg1 {
