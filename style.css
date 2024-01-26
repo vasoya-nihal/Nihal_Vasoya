@@ -27,6 +27,12 @@
   overflow-x: clip;
 }
 
+.left-sideimg1 img {
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: auto;
+}
 .progress {
   height: 4px;
   overflow: visible;
