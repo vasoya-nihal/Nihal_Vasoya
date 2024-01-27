@@ -46,8 +46,13 @@ h3 {
 .left-sideimg1 img {
   /* background-size: cover; */
   /* background-position: center; */
-  height: 100vh;
-  width: auto;
+
+  /* height: 100vh;
+  width: auto; */
+
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
   /* margin: 0 12px 0 0px; */
 }
 .progress {
@@ -90,7 +95,7 @@ h3 {
 
 .ani-img {
   height: 100vh;
-  width: 56vw;
+  /* width: 56vw; */
   position: static;
   z-index: 100;
   background-color: aqua;
@@ -101,4 +106,9 @@ h3 {
 }
 .second-portion {
   position: absolute;
+}
+.ani-text1 {
+  background-color: blue;
+  height: 100vh;
+  /* background-size: cover; */
 }
