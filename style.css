@@ -5,28 +5,35 @@
 }
 
 .first-porstion {
-  background-image: url(assets/hero_img.jpg.webp);
+  /* background-image: url(assets/hero_img.jpg.webp); */
+  /* background-image: url(assets/Abstract\ Profile\ Photo\ Instagram\ Post.png); */
+  /* background-size: 100vw 100vh; */
+
+  /* aa rakhvanu hai miche nu // */
+
+  /* background-color: rgb(53, 41, 83);
 
   background-repeat: no-repeat;
-  /* background-size: 100vw 100vh; */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
   height: 100vh;
-  width: auto;
+  width: auto; */
 }
 .center-text {
   /* text-align: center; */
-  padding: 15%;
+  /* padding: 15%; */
 }
-
-h1 {
+.animate-text {
+  /* height: 120vh; */
+}
+/* h1 {
   text-align: center;
 }
 h3 {
   text-align: center;
-}
+} */
 
 .left-sideimg1 {
   max-width: 100%;
@@ -50,18 +57,7 @@ h3 {
   position: relative;
 }
 
-/* span {
-  background-color: #000000;
-  position: absolute;
-  bottom: -20px;
-  font-size: 50px;
-  line-height: 10px;
-  padding: 2px 3px 2px 4px;
-  right: -1.4em;
-  border-radius: 2px;
-} */
-
-span {
+.skill span {
   color: black;
   position: absolute;
   bottom: -20px;
@@ -69,4 +65,40 @@ span {
   line-height: 10px;
   right: 0;
   /* right: -1.4em; */
+}
+
+.img-textpart {
+  background-color: rgba(7, 9, 9, 0.815);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  /* height: calc(); */
+  height: 100vh;
+  width: 100%;
+}
+
+.ani-text1 {
+  height: 100vh;
+}
+.animate-text {
+  text-align: start;
+  margin-top: 22%;
+  justify-content: center;
+}
+
+.ani-img {
+  height: 100vh;
+  width: 56vw;
+  position: static;
+  z-index: 100;
+  background-color: aqua;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  background-attachment: fixed;
+}
+.second-portion {
+  position: absolute;
 }
