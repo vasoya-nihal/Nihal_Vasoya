@@ -33,6 +33,10 @@
   right: 0;
 }
 
+.home-content h3 span {
+  color: #0ef;
+}
+
 .img-textpart {
   background-color: rgba(7, 9, 9, 0.815);
   background-repeat: no-repeat;
