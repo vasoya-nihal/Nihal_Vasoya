@@ -40,7 +40,7 @@ h3 span {
 
 .ani-img img {
   animation: zoomIn 1s ease forwards, floatImage 4s ease-in-out infinite;
-  animation-delay: 2s, 3s;
+  animation-delay: 0s, 2s;
 }
 
 @keyframes zoomIn {
