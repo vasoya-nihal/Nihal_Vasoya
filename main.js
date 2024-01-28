@@ -3,5 +3,6 @@ var typed = new Typed(".text",{
     typeSpeed:100,
     backSpeed:100,
     backDelay:1000,
+    startDelay: 1289,
     loop:true
 });
