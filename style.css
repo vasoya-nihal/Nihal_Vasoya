@@ -70,6 +70,10 @@ h3 span {
   border-radius: 10%;
   padding: 5px 20px;
 }
+
+.service-items {
+  margin: 1% auto 1%;
+}
 /* .first-thing {
   border-bottom: dashed red;
 } */
