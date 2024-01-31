@@ -75,10 +75,14 @@ h3 span {
 .service-items {
   margin: 1% auto 1%;
 }
-
+.social .bi {
+  font-size: 1.8rem;
+}
 .footerpart1 {
   background-color: #efefef;
-  height: 40vh;
+}
+.footerpart1 ul li {
+  margin-top: 1rem;
 }
 /* for animation */
 @keyframes slideBottom {
