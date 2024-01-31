@@ -75,9 +75,11 @@ h3 span {
 .service-items {
   margin: 1% auto 1%;
 }
-/* .first-thing {
-  border-bottom: dashed red;
-} */
+
+.footerpart1 {
+  background-color: #efefef;
+  height: 40vh;
+}
 /* for animation */
 @keyframes slideBottom {
   0% {
