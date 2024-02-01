@@ -3,12 +3,19 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+html {
+  scroll-behavior: smooth;
+}
 .progress {
   height: 4px;
   overflow: visible;
   margin-bottom: 26px;
   position: relative;
+}
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 500;
 }
 
 .skill span {
