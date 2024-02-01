@@ -22,7 +22,10 @@
 h3 span {
   color: aqua;
 }
-
+.btn {
+  padding: 15px 30px 15px 30px;
+  border-radius: 30px;
+}
 .animate-text {
   text-align: start;
   justify-content: center;
@@ -36,7 +39,7 @@ h3 span {
 }
 
 .first-part {
-  height: 100vh;
+  height: 93vh;
 }
 .home-content h3 {
   opacity: 0;
@@ -79,7 +82,7 @@ h3 span {
   font-size: 1.8rem;
 }
 .footerpart1 {
-  background-color: #efefef;
+  background-color: #96969ca9;
 }
 .footerpart1 ul li {
   margin-top: 1rem;
