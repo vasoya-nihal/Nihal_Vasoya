@@ -34,12 +34,12 @@ html {
   margin-bottom: 26px;
   position: relative;
 }
-.navbar {
+/* .navbar {
   position: sticky;
 
   top: 0;
   z-index: 500;
-}
+} */
 
 .skill span {
   color: black;
@@ -122,6 +122,11 @@ h3 span {
   margin-top: 1rem;
 }
 /* for animation */
+/* @media screen and (min-width: 768px) {
+  body {
+    padding-top: 100px;
+  }
+} */
 @keyframes slideBottom {
   0% {
     transform: translateY(-100px);
