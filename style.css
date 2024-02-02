@@ -2,10 +2,32 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  /* color: #ccc; */
 }
+
 html {
   scroll-behavior: smooth;
 }
+
+/* .leftimg1 img {
+  
+  vertical-align: middle;
+  
+} */
+
+/* 
+.wt {
+  color: #ccc;
+}
+.bgcolor {
+  background-color: #1f2235;
+}
+#service,
+.resume-part,
+#contact {
+  background-color: #313552;
+} */
+
 .progress {
   height: 4px;
   overflow: visible;
@@ -14,6 +36,7 @@ html {
 }
 .navbar {
   position: sticky;
+
   top: 0;
   z-index: 500;
 }
@@ -26,6 +49,7 @@ html {
   line-height: 10px;
   right: 0;
 }
+
 h3 span {
   color: aqua;
 }
@@ -37,16 +61,19 @@ h3 span {
   text-align: start;
   justify-content: center;
 }
-
+.biopart {
+  /* height: 70vh; */
+  justify-content: center;
+}
 .second-portion {
-  position: absolute;
+  /* position: absolute; */
 }
 .ani-text1 {
   /* height: 100vh; */
 }
 
 .first-part {
-  height: 93vh;
+  /* height: 93vh; */
 }
 .home-content h3 {
   opacity: 0;
