@@ -15,10 +15,20 @@ html {
   
 } */
 
-/* 
 .wt {
   color: #ccc;
 }
+.links a {
+  text-decoration: none;
+  color: white;
+}
+.links li {
+  /* display: inline; */
+  /* display: flex; */
+  /* flex-wrap: wrap; */
+  /* margin: 1rem; */
+}
+/* 
 .bgcolor {
   background-color: #1f2235;
 }
@@ -116,7 +126,8 @@ h3 span {
   font-size: 1.8rem;
 }
 .footerpart1 {
-  background-color: #838385a9;
+  /* background-color: #838385a9; */
+  background-color: rgba(0, 0, 0, 0.807);
 }
 .footerpart1 ul li {
   margin-top: 1rem;
