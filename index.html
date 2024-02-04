@@ -442,14 +442,14 @@
 
     <div class="row" data-aos="fade-up" data-aos-delay="130">
       <div class="col-lg-7">
-        <form action="" class="contact-form">
+        <form action="" class="contact-form" onsubmit="sendEmail(); reset(); return false; ">
           <div class="row">
             <div class="col-6">
               <div class="form-group">
 
                 <div class="mb-3">
                   <label for="formGroupExampleInput" class="form-label">First name</label>
-                  <input type="text" class="form-control" id="formGroupExampleInput">
+                  <input type="text" class="form-control" id="fname">
                 </div>
 
 
@@ -462,7 +462,7 @@
                 <div class="mb-3">
                   <label for="formGroupExampleInput2" class="form-label">
                     Last name</label>
-                  <input type="text" class="form-control" id="formGroupExampleInput2">
+                  <input type="text" class="form-control" id="lname">
                 </div>
 
 
@@ -473,11 +473,11 @@
             <div class="email-msg-part">
               <div class="mb-3">
                 <label for="exampleFormControlInput1" class="form-label">Email address</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                <input type="email" class="form-control" id="email" placeholder="name@example.com">
               </div>
               <div class="mb-3">
                 <label for="exampleFormControlTextarea1" class="form-label">Message</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                <textarea class="form-control" id="suggestion" rows="3"></textarea>
               </div>
             </div>
           </div>
@@ -595,6 +595,26 @@
     });
   </script>
   <!-- for aos  -->
+
+
+  <!-- mail js  -->
+  <script src=" https://smtpjs.com/v3/smtp.js"></script>
+  <script>
+    function sendEmail() {
+      Email.send({
+        Host: "smtp.elasticemail.com",
+        Username: "nihal1481@tnraocollege.org",
+        Password: "3BC1D9BF473A2E321CA866E2A493ACC7CEC5",
+        To: 'nihalvasoyawork@gmail.com',
+        From: document.getElementById("email").value,
+        Subject: "New Contact Form Enquiry",
+        Body: "First Name: " + document.getElementById("fname").value + "lname:" + document.getElementById("lname").value + "<br> Email:" + document.getElementById("email").value + "<br> Feedback:" + document.getElementById("suggestion").value
+      }).then(
+        message => alert("Message sent Succesfully")
+      );
+    }
+  </script>
+  <!-- mail js  -->
 </body>
 
 </html>
