@@ -38,7 +38,10 @@ span {
 .navbar {
   background-color: rgba(0, 0, 0, 0.732);
 }
-
+.navbar-brand img {
+  width: 31px;
+  /* margin: 0; */
+}
 .navbar a {
   transition: 0.5s;
 }
@@ -84,7 +87,7 @@ span a {
 .navbar {
   position: sticky;
 
-  top: 0;
+  top: 0px;
   z-index: 500;
 }
 
@@ -159,11 +162,7 @@ h3 span {
   /* margin-top: 1rem; */
 }
 /* for animation */
-/* @media screen and (min-width: 768px) {
-  body {
-    padding-top: 100px;
-  }
-} */
+
 @keyframes slideBottom {
   0% {
     transform: translateY(-100px);
