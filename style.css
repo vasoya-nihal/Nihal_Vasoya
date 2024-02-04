@@ -37,7 +37,7 @@ span {
 /* use fonts  */
 .navbar {
   background-color: rgba(0, 0, 0, 0.732);
-  height: 60px;
+  /* height: 60px; */
 }
 .navbar-brand img {
   width: 31px;
