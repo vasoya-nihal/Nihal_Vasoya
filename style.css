@@ -1,3 +1,12 @@
+/* for fonts  */
+
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+/* for fonts  */
+
 * {
   margin: 0;
   padding: 0;
@@ -7,22 +16,40 @@
 html {
   scroll-behavior: smooth;
 }
-.navbar {
-  background-color: rgba(0, 0, 0, 0.807);
+
+/* use fonts  */
+
+.home-content h1 {
+  font-family: "Josefin Sans", sans-serif;
 }
+h3,
+h2 {
+  font-family: "Inter", sans-serif;
+}
+h5 {
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+p,
+span {
+  font-family: "Poppins", sans-serif;
+}
+/* use fonts  */
+.navbar {
+  background-color: rgba(0, 0, 0, 0.732);
+}
+
 .navbar a {
   transition: 0.5s;
 }
-.navbar a:hover {
+.navbar a:hover,
+.link-under li a:hover {
   color: #0ef;
 }
 .nav-link {
-  /* transition: all 0.2s; */
   position: relative;
 }
 
-.nav-link:hover {
-}
 .nav-link::after {
   content: "";
 
@@ -45,18 +72,8 @@ html {
 span a {
   text-decoration: none;
   color: white;
-  padding: 12px;
+  padding-right: 15px;
 }
-
-/* 
-.bgcolor {
-  background-color: #1f2235;
-}
-#service,
-.resume-part,
-#contact {
-  background-color: #313552;
-} */
 
 .progress {
   height: 4px;
