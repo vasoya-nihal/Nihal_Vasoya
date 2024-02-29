@@ -54,7 +54,9 @@
   <!-- style="background-color: #2b4b62" -->
 
   <div class="container-fluid " style="background-color: #2b4b62">
-    <div class="container" style="height: calc(100vh - 60px);">
+    <!-- <div class="container" style="height: calc(100vh - 60px);"> -->
+    <div class="container">
+
       <!-- Using calc function navbar remove from 100vh -->
       <div class="row justify-content-start">
         <div class="first-part">
@@ -224,8 +226,7 @@
             </span>
             <h3 class="py-2">Developoment</h3>
             <p>
-
-              Frontend developer skilled in HTML, CSS, and JavaScript. Dedicated to crafting visually appealing and
+              Frontend developer skilled in HTML, CSS, and JavaScript. Dedicated to crafting
               responsive websites.
             </p>
           </div>
@@ -630,6 +631,8 @@
     crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
 
+
+
   <script src="main.js"></script>
 
   <!-- for aos  -->
@@ -644,15 +647,15 @@
 
 
   <!-- mail js  -->
-  <script src=" https://smtpjs.com/v3/smtp.js"></script>
+  <script src="https://smtpjs.com/v3/smtp.js"></script>
   <script>
     function sendEmail() {
       Email.send({
         Host: "smtp.elasticemail.com",
-        Username: "nihal1481@tnraocollege.org",
-        Password: "09DDA020CF2C0936AFB011839B201432430D",
+        Username: "softmelodieslofi@gmail.com",
+        Password: "9792BD70B582D4F027F15B73C68A6D6BE07E",
         To: document.getElementById("email").value,
-        From: 'nihalvasoyawork@gmail.com',
+        From: 'nihalvasoya752004@gmail.com',
         Subject: "New Contact Form Enquiry",
         Body: "First Name: " + document.getElementById("fname").value + "<br>Last Name:" + document.getElementById("lname").value + "<br> Email:" + document.getElementById("email").value + "<br> Feedback:" + document.getElementById("suggestion").value
       }).then(
@@ -661,6 +664,12 @@
     }
   </script>
   <!-- mail js  -->
+
+
+
+
+
+
 </body>
 
 </html>
